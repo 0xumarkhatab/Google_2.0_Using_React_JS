@@ -1,0 +1,33 @@
+.filterOption {
+  display: flex;
+  justify-content: space-between;
+  width: max-content;
+  color: rgb(161, 159, 159) !important;
+  margin-left: 3vw;
+  transition: 0.9s transform;
+}
+.d-none {
+  display: none;
+}
+.filterOption > p,
+.filterOption__selected > p {
+  color: rgb(78, 74, 74);
+}
+.filterOption > p:hover,
+.filterOption__selected > p:hover {
+  color: blue;
+}
+
+.filterOption:hover,
+.filterOption__selected:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: rgb(172, 60, 60);
+  text-underline-offset: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+  .extra__filter {
+    transform: scale(0);
+  }
+}
