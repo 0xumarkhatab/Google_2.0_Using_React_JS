@@ -1,12 +1,12 @@
-# Spotify_Clone_Using_React_JS
+# Google App _Using_React_JS
 
 ## Building Blocks
   
-    Spotify Api
-    Spotify Api Authentication
+    Google's Api
     React Hooks
     Material Ui
     Responsive Plain Css tactics
+    
     
 The Project Looks as Follows
 # 
